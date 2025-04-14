@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Distracted Boyfriend",
+    "image": "https://i.kym-cdn.com/entries/icons/original/000/023/732/damngina.jpg",
+    "likes": 38,
+    "url": "https://knowyourmeme.com/memes/distracted-boyfriend"
+  },
+  {
+    "id": 2,
+    "name": "Drake Hotline Bling",
+    "image": "https://i.kym-cdn.com/entries/icons/original/000/020/147/drake.jpg",
+    "likes": 87,
+    "url": "https://knowyourmeme.com/memes/drakeposting"
+  },
+  {
+    "id": 3,
+    "name": "Two Buttons",
+    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/019/571/dailystruggg.jpg",
+    "likes": 65,
+    "url": "https://knowyourmeme.com/memes/daily-struggle-two-buttons"
+  },
+  {
+    "id": 4,
+    "name": "Change My Mind",
+    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/025/500/crowder.jpg",
+    "likes": 22,
+    "url": "https://knowyourmeme.com/memes/steven-crowders-change-my-mind-campus-sign"
+  },
+  {
+    "id": 5,
+    "name": "Expanding Brain",
+    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/022/266/brain.jpg",
+    "likes": 54,
+    "url": "https://knowyourmeme.com/memes/galaxy-brain"
+  },
+  {
+    "id": 6,
+    "name": "Surprised Pikachu",
+    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/027/475/Screen_Shot_2018-10-25_at_11.02.15_AM.jpg",
+    "likes": 77,
+    "url": "https://knowyourmeme.com/memes/surprised-pikachu"
+  },
+  {
+    "id": 7,
+    "name": "Woman Yelling at Cat",
+    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/030/157/womanyellingcat.jpg",
+    "likes": 91,
+    "url": "https://knowyourmeme.com/memes/woman-yelling-at-a-cat"
+  },
+  {
+    "id": 8,
+    "name": "Roll Safe",
+    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/022/138/highresrollsafe.jpg",
+    "likes": 33,
+    "url": "https://knowyourmeme.com/memes/roll-safe"
+  },
+  {
+    "id": 9,
+    "name": "One Does Not Simply",
+    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/000/143/493654d6ef.jpg",
+    "likes": 45,
+    "url": "https://knowyourmeme.com/memes/one-does-not-simply-walk-into-mordor"
+  },
+  {
+    "id": 10,
+    "name": "Mocking SpongeBob",
+    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/022/940/mockingspongebobbb.jpg",
+    "likes": 68,
+    "url": "https://knowyourmeme.com/memes/mocking-spongebob"
+  }
+]
