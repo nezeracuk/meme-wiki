@@ -1,12 +1,69 @@
-# React + Vite
+# Meme Wiki
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application for browsing, viewing, and managing popular internet memes. This application provides a user interface for exploring memes with both table and grid views, and allows users to edit meme details.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Multiple View Options**: Switch between table and list views for memes
+- **Edit Functionality**: Modify meme details through a modal interface
+- **Responsive Design**: Works on both desktop and mobile devices
+- **API Integration**: Backend REST API for meme data management
+- **Data Persistence**: Changes to memes are saved and persisted
+- **Reset Capability**: Option to reset meme data to its original state
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**:
+  - React 18
+  - React Router DOM for navigation
+  - Tailwind CSS for styling
+  - Axios for API requests
+
+- **Backend**:
+  - Express.js server
+  - File-based JSON storage
+
+## Installation
+
+1. Clone the repository:
+``` bash
+git clone https://github.com/nezeracuk/meme-wiki.git 
+cd meme-wiki
+```
+2. Install dependencies:
+```bash
+yarn install
+```
+3. Create a `.env` file in the root directory and add:
+```bash
+VITE_API_URL=http://localhost:3001/api
+```
+## Running the Application
+
+### Development Mode
+
+Run the frontend and backend in development mode:
+```bash
+yarn run dev
+```
+In a separate terminal, start the API server:
+```bash
+yarn run server
+```
+
+
+## API Endpoints
+
+- `GET /api/memes` - Get all memes
+- `GET /api/memes/:id` - Get a specific meme by ID
+- `PUT /api/memes/:id` - Update a specific meme
+
+## Project Structure
+
+- `/public` - Static assets
+- `/src` - Source code
+  - `/assets` - Images and media files
+  - `/components` - React components
+  - `/data` - JSON data files
+  - `/services` - API service functions
+
