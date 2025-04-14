@@ -11,10 +11,12 @@ export default function MemeList() {
       try {
         setIsLoading(true);
         const data = await fetchMemes();
-        setMemes(data);
+        setMemes(Array.isArray(data) ? data : []);
         setError(null);
       } catch (err) {
+        console.error("Error fetching memes:", err);
         setError("Failed to load memes");
+        setMemes([]);
       } finally {
         setIsLoading(false);
       }

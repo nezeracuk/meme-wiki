@@ -29,8 +29,15 @@ app.get("/api/memes", async (req, res) => {
   try {
     const data = await fs.readFile(memesFilePath, "utf-8");
     const memes = JSON.parse(data);
+
+    if (!Array.isArray(memes)) {
+      console.error("Memes data is not an array:", typeof memes);
+      return res.json([]);
+    }
+
     res.json(memes);
   } catch (error) {
+    console.error("Error retrieving memes:", error);
     res.status(500).json({ error: "Failed to retrieve memes" });
   }
 });
