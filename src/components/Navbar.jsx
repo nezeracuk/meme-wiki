@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { resetMemeData } from "../services/api";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,12 +11,6 @@ export default function Navbar() {
     { name: "List View", href: "/list" },
   ];
 
-  const handleReset = async () => {
-    try {
-      await resetMemeData();
-      window.location.reload();
-    } catch (error) {}
-  };
 
   return (
     <nav className="bg-gray-800 w-full">
@@ -86,15 +79,6 @@ export default function Navbar() {
                 {item.name}
               </Link>
             ))}
-            <button
-              onClick={() => {
-                handleReset();
-                setIsMenuOpen(false);
-              }}
-              className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-            >
-              Reset Data
-            </button>
           </div>
         </div>
       )}
