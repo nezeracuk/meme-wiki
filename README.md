@@ -67,3 +67,4 @@ yarn run server
   - `/data` - JSON data files
   - `/services` - API service functions
 
+This project is now available on production: https://meme-wiki-production.up.railway.app/
